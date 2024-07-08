@@ -108,19 +108,27 @@ max-width: 585px;
 
   }
 
+  .text-center{
+    text-align: center;
+  }
+
 /* main styles */
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 
 /* about styles */
   .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 
 
   }
@@ -130,15 +138,39 @@ main{
   }
 .item-title{
     font-size: 20px;
+    font-weight: bold;
     color: #757575;
 }
   .item-description{
     font-size: 20px;
     font-weight: 600;
   }
+/* skill styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;}
+
+
+  .skill{
+    padding: 104px 33px 30px 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+  }
+
+  .skill-title{
+    font-size: 20px;
+    font-weight: bold;
+    color:#181818
+  }
+
+  .skill-description{
+    font-size: 16px;
+    color: #757575;
+  }
+  /* section styles */
 .section-title{
     font-size: 35px;
-    font-weight: bold;
+    
     color:#181818 ;
 }
 .section-description{
@@ -149,6 +181,8 @@ main{
 .secondary-bg-colour{
     background-color:#FFF8F3 ;
 }
+
+
 
 
 
